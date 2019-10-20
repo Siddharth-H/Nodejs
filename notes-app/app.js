@@ -5,5 +5,5 @@ const chalk = require("chalk")
 const msg = getNotes()
 
 console.log(msg)
-
-console.log(chalk.red.bold.bgYellow(validator.isURL('https://sid.com')))
+const greenMsg = chalk.bold.green("Success!")
+console.log(greenMsg)
