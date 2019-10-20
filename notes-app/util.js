@@ -1,5 +1,5 @@
 const name = "Mike"
-const sum = function (a,b){
-    return a+b
+const displayName = function (){
+    return name
 }
-console.log(sum(1,2))
+module.exports = displayName
