@@ -1,8 +1,9 @@
 const validator = require('validator')
 const getNotes = require("./notes.js")
+const chalk = require("chalk")
 
 const msg = getNotes()
 
 console.log(msg)
 
-console.log(validator.isURL('https://sid.com'))
+console.log(chalk.red.bold.bgYellow(validator.isURL('https://sid.com')))
